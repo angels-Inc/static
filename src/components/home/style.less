@@ -1,0 +1,26 @@
+@import '~style/helpers';
+
+.home {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.home > div {
+  position: relative;
+}
+
+.topHero {
+  flex: 1;
+  justify-content: center;
+  align-content: center;
+  img {
+    display: flex;
+    width: 50vw;
+  }
+}
+.bottomHero {
+  flex: 3;
+  background-color: @lightBlue;
+}
