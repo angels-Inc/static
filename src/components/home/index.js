@@ -9,7 +9,7 @@ export default class Home extends Component {
           <img src={ require('../../assets/logo.png') } alt="Angels Inc Logo"/>
         </div>
         <div class={ style.bottomHero }>
-
+          <h1>COMING SOON</h1>
         </div>
       </div>
     );
